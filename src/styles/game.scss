@@ -1,0 +1,15 @@
+.gamebox{
+    display: flex;
+    justify-content: space-evenly;
+
+    .gamebox__left{
+        background-color: red;
+        
+    }
+    .gamebox__center{
+        background-color:rgb(205, 202, 202);
+    }
+    .gamebox__right{
+        background-color: blue;
+    }
+}

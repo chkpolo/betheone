@@ -1,0 +1,40 @@
+.joinbox{
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px blue solid;
+    border-radius: 10px;
+    width: 30%;
+    height: 400px;
+    
+    .joinbox__button{
+        width:100%;
+        height:20%;
+        background-color: blue;
+
+        h2{
+            color: white
+        }
+    }
+    .joinbox__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: red;
+        width: 100%;
+        height: 80%;
+
+        input {
+            width: 50%;
+            height: 50px;
+        }
+    }
+
+    .joinbox__emoji{
+        height:20%;
+    }
+
+}
